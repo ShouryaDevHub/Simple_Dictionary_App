@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color:cadetblue; */
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-literature-illustration_23-2149290085.jpg?semt=ais_hybrid&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 180px;
+}
+
+h1{
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 12px;
+  text-decoration: underline;
+}
+
+#box{
+  background-color: burlywood;
+  padding-bottom: 20px;
+  padding: 20px;
+  width: 320px;         
+  border-radius: 10px;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;   
+}
+
+input{
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+  background-color:chocolate;
+  color: white;
+  padding: 5px 12px;
+  font-size: 18px;
+}
+
+#result{
+  padding-top: 35px;
+  font-size: large;
+  flex-direction: column;
+}
