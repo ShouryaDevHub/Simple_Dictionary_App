@@ -23,7 +23,7 @@ btn.addEventListener("click", async () => {
 
     let meaning = data[0].meanings[0].definitions[0].definition;
 
-    result.innerHTML = `<b>Meaning :-</b> ${meaning}`;
+    result.innerHTML = `<b><u>Meaning :-</u></b> ${meaning}`;
   } catch (e) {
     result.innerText = "Error fetching data";
   }
